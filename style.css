@@ -116,3 +116,38 @@ label{
     cursor: pointer;
 }
 
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100px;
+}
+.forca{
+    height: 30;
+    position: relative;
+    bottom: 30px;
+}
+.fraca{
+    width: 25px;
+    background-color: #E71B32;
+}
+
+.media{
+    background-color: #FAF408;
+    width: 50px;
+}
+.forte{
+    background-color: #00ff85;
+    width: 100px;
+}
+
+.parametro-senha__textos{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width: 768) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
+}
